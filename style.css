@@ -272,3 +272,101 @@ body{
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
 }
+
+/* --------middle-content-wrapper start------ */
+.middle-content-wrapper{
+    width: 100%;
+    background: #e9e6c3 url(images/middleBg.jpg) repeat-x;
+}
+.middle-content-wrapper .container{
+    width:928px ;
+    margin: 0 auto;
+    padding-top:24px ;
+    display: flex;
+}
+.features-wrapper{
+    width: 473px;
+    padding: 0 31px 34px 26px;
+}
+.features-wrapper h2{
+    font-size: 34px ;
+    color: #1d1d1d;
+    padding-left: 50px;
+    font-weight: normal;
+    background: url(images/globalpic.jpg) no-repeat -474px -357px;
+}
+.features-wrapper p{
+    margin-top: 9px;
+    font-size: 12px ;
+    color: #575433;
+    line-height: 19px;
+}
+.features-wrapper .read-more-btn, .login-btn{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 11px;
+    float: right;
+    color: white;
+    background: url(images/globalpic.jpg) no-repeat -117px -226px;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.login-wrapper{
+    width: 180px;
+    height: 184px;
+    border: 1px solid #d7d3aa;
+    background: #f1eed0;
+}
+.login-wrapper h2{
+    padding-left: 33px;
+    font-size: 18px;
+    color: #212121;
+    font-weight: normal;
+    line-height: 30px;
+    background:#ffffff url(images/globalpic.jpg) no-repeat -483px -399px ;
+}
+.login-wrapper .form{
+    padding:8px 0 0 17px;
+}
+.login-wrapper .form label{
+    font-size: 10px ;
+    color: #1d1d1d;
+}
+.login-wrapper .form input{
+    padding: 3px;
+    width: 90%;
+}
+
+.login-wrapper .form .btns{
+    margin-top: 6px;
+}
+.login-wrapper .form .btns .forgot-btn{
+    margin-top: 6px;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #9fb31a;
+}
+
+.login-wrapper .form .btns .login-btn{
+    float: unset;
+    margin-top: 6px;
+}
+
+.contact{
+    width: 210px;
+    height: 107px;
+    margin: 21px 0 0 19px;
+    background:url(images/globalpic.jpg) no-repeat -75px -111px ;
+}
+.contact p{
+    font-size: 26px;
+    color: #252525;
+    margin-top: 10px;
+    line-height: 30px;
+    padding-left: 28px;
+}
