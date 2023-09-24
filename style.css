@@ -278,7 +278,7 @@ body{
     width: 100%;
     background: #e9e6c3 url(images/middleBg.jpg) repeat-x;
 }
-.middle-content-wrapper .container{
+ .container{
     width:928px ;
     margin: 0 auto;
     padding-top:24px ;
@@ -369,4 +369,68 @@ body{
     margin-top: 10px;
     line-height: 30px;
     padding-left: 28px;
+}
+/* -----Footer section start --------- */
+footer{
+    width: 100%;
+    padding-bottom: 23px;
+    background:url(images/footbg.jpg) repeat-x ;
+}
+footer .container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer-nav{
+    width: 655px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.footer-nav li:last-child a{
+    border: none;
+}
+.footer-nav li a{
+    font-size: 11px;
+    color: #d5d5d5;
+    text-decoration: none;
+    border-right: 1px solid #d5d5d5;
+    padding-right:8px ;
+}
+.copyright{
+    text-align: center;
+    color: #9fb31a;
+    font-size: 10px;
+    margin-top: 6px;
+}
+footer .para{
+    color: #e9e6c3;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 9px;
+}
+footer .para a{
+    color: white;
+    text-decoration: none;
+}
+.footer-btns{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.footer-btns a{
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px;
+    background:url(images/globalpic.jpg) no-repeat -222px -226px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
 }
