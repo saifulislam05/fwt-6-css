@@ -86,27 +86,6 @@ The "Website Name" is a web page project that showcases various features and con
 
 # CSS Styles Explanation
 
-## Table of Contents
-
--[top-content-wrapper](#top-content-wrapper)
-    - [top-content](#top-content)
-      -[logo](#logo)
-      -[about-panel](#about-panel)
-      -[event-panel](#event-panel)
-      -[right-panel](#right-panel)
-
--[middle-content-wrapper](#middle-content-wrapper)
-    - [container](#container)
-      -[features-wrapper](#features-wrapper)
-      -[login-wrapper](#login-wrapper)
-      -[contact](#contact)
-
--[footer](#footer)
-    -[footer-nav](#footer-nav)
-    -[copyright](#copyright)
-    -[para](#para)
-    -[footer-btns](#footer-btns)
-
 
 ## Global Styles (`*`)
 - `margin: 0;`: Resets margin for all elements.
@@ -116,25 +95,25 @@ The "Website Name" is a web page project that showcases various features and con
 - `background: #414141;`: Sets the background color for the entire page.
 - `font-family: Arial, Helvetica, sans-serif;`: Specifies the font family for text content.
 
-## Top Content Wrapper (`.top-content-wrapper`){#top-content-wrapper}
+## Top Content Wrapper (`.top-content-wrapper`)
 - `.top-content-wrapper`:
   - `width: 100%;`: Makes the container span the entire width.
   - `background: #f9f7db url(/images/bodyBg.jpg) repeat-x;`: Sets the background color and a repeating image for the top content wrapper.
 
-### Top Content (`.top-content`){#top-content}
+### Top Content (`.top-content`)
 - `.top-content`:
   - `width: 928px;`: Sets the width of the content container.
   - `margin: 0 auto;`: Centers the container horizontally on the page.
   - `display: flex;`: Uses the Flexbox layout for child elements.
 
-#### Logo (`.logo`){#logo}
+#### Logo
 - `.logo`:
   - `width: 75px;`: Sets the width of the logo element.
   - `height: 740px;`: Sets the height of the logo element.
   - `background: url(/images/globalpic.jpg);`: Sets a background image for the logo.
   - `background-repeat: no-repeat;`: Prevents the background image from repeating.
 
-#### About Panel (`.about-panel`){#about-panel}
+#### About Panel (`.about-panel`)
 - `.about-panel`:
   - `width: 216px;`: Sets the width of the about panel.
   - `height: 715px;`: Sets the height of the about panel.
@@ -197,11 +176,11 @@ The "Website Name" is a web page project that showcases various features and con
   - `background:#9f3105 ;`: Sets the background color for links within paragraphs.
   - `text-decoration: none;`: Removes text decoration for links within paragraphs.
 
-### Panel Content Links (Hover) (`.panel-content p a:hover`)
+#### Panel Content Links (Hover) (`.panel-content p a:hover`)
 - `.panel-content p a:hover`:
   - `background: #812a08;`: Changes the background color of links on hover.
 
-### Read More Button (`.panel-content .read-more-btn`)
+##### Read More Button (`.panel-content .read-more-btn`)
 - `.panel-content .read-more-btn`:
   - `padding: 4px 7px;`: Sets padding for the read more button.
   - `margin-left: 100px;`: Adds left margin to the button.
@@ -211,11 +190,11 @@ The "Website Name" is a web page project that showcases various features and con
   - `background: url(/images/buttons.jpg);`: Sets a background image for the button.
   - `background-repeat: no-repeat;`: Prevents the background image from repeating.
 
-### Read More Button (Hover) (`.panel-content .read-more-btn:hover`)
+##### Read More Button (Hover) (`.panel-content .read-more-btn:hover`)
 - `.panel-content .read-more-btn:hover`:
   - `color: #cd4007;`: Changes the text color of the button on hover.
 
-### Event Panel (`event-panel`){#event-panel}
+### Event Panel (`event-panel`)
 - `.event-panel`:
   - `width: 216px;`: Sets the width of the event panel.
   - `height: 715px;`: Sets the height of the event panel.
@@ -257,13 +236,13 @@ The "Website Name" is a web page project that showcases various features and con
   - `background: #75850e;`: Sets the background color for links within the event panel.
   - `color: #f2ff9a;`: Sets the text color for links within the event panel.
 
-### 3 Event Panel Links (Hover) (`.event-panel .panel-content p a:hover`)
+##### Event Panel Links (Hover) (`.event-panel .panel-content p a:hover`)
 - `.event-panel .panel-content p a:hover`:
   - `background: #525d08;`: Changes the background color of links on hover.
   - `color: #f2ff9a;`: Changes the text color of links on hover.
 ...
 
-### Right Panel (`right-panel`){#right-panel}
+### Right Panel (`right-panel`)
 - `.right-panel`:
   - `width: 400px;`: Sets the width of the right panel.
   - `padding-left: 20px;`: Adds left padding to the right panel.
@@ -315,7 +294,7 @@ The "Website Name" is a web page project that showcases various features and con
   - `font-weight: normal;`: Sets the font weight to normal.
   - `background: url(images/globalpic.jpg) no-repeat -467px -308px;`: Sets a background image for the right panel heading.
 
-### Right Panel Additional Links (`.right-panel .additional-links`)
+#### Right Panel Additional Links (`.right-panel .additional-links`)
 - `.right-panel .additional-links`:
   - `margin-top: 12px;`: Adds top margin to the additional links section.
 
@@ -400,12 +379,12 @@ The "Website Name" is a web page project that showcases various features and con
   - `padding: 4px 2px;`: Adds padding to the button.
   - `border-radius: 4px;`: Applies a rounded border to the button.
 
-## Middle Content Wrapper (`.middle-content-wrapper`){#middle-content-wrapper}
+## Middle Content Wrapper (`.middle-content-wrapper`)
 - `.middle-content-wrapper`:
   - `width: 100%;`: Sets the width of the middle content wrapper.
   - `background: #e9e6c3 url(images/middleBg.jpg) repeat-x;`: Sets the background color and image for the middle content wrapper.
 
-### Container for Middle Content (`.container`){#container}
+### Container for Middle Content (`.container`)
 - `.container`:
   - `width: 928px;`: Sets the width of the container for middle content.
   - `margin: 0 auto;`: Centers the container horizontally on the page.
@@ -413,7 +392,7 @@ The "Website Name" is a web page project that showcases various features and con
   - `display: flex;`: Uses a flex layout for its child elements.
 ...
 
-### Features Section Wrapper (`.features-wrapper`){#features-wrapper}
+### Features Wrapper (`.features-wrapper`)
 - `.features-wrapper`:
   - `width: 473px;`: Sets the width of the features section wrapper.
   - `padding: 0 31px 34px 26px;`: Specifies padding for the features section wrapper.
@@ -425,14 +404,14 @@ The "Website Name" is a web page project that showcases various features and con
   - `padding-left: 50px;`: Adds left padding to the heading.
   - `font-weight: normal;`: Sets the font weight to normal.
 
-### Features Section Paragraphs (`features-wrapper p`)
+#### Features Section Paragraphs (`features-wrapper p`)
 - `features-wrapper p`:
   - `margin-top: 9px;`: Adds top margin to the paragraphs.
   - `font-size: 12px;`: Sets the font size for the paragraphs.
   - `color: #575433;`: Defines the text color.
   - `line-height: 19px;`: Sets the line height for the paragraphs.
 
-### Read More Button (`features-wrapper .read-more-btn`)
+##### Read More Button (`features-wrapper .read-more-btn`)
 - `features-wrapper .read-more-btn`, `.login-btn`:
   - `padding: 5px;`: Adds padding to the button.
   - `text-decoration: none;`: Removes text decoration.
@@ -442,14 +421,14 @@ The "Website Name" is a web page project that showcases various features and con
   - `background: url(images/globalpic.jpg) no-repeat -117px -226px;`: Sets a background image for the button.
   - `border-radius: 4px;`: Applies a rounded border to the button.
 
-### Member Login Wrapper (`.login-wrapper`){#login-wrapper}
+#### Member Login Wrapper (`.login-wrapper`)
 - `.login-wrapper`:
   - `width: 180px;`: Sets the width of the member login wrapper.
   - `height: 184px;`: Sets the height of the wrapper.
   - `border: 1px solid #d7d3aa;`: Adds a border to the wrapper.
   - `background: #f1eed0;`: Sets the background color.
 
-### Member Login Heading (`login-wrapper h2`)
+##### Member Login Heading (`login-wrapper h2`)
 - `login-wrapper h2`:
   - `padding-left: 33px;`: Adds left padding to the heading.
   - `font-size: 18px;`: Sets the font size for the heading.
@@ -458,29 +437,29 @@ The "Website Name" is a web page project that showcases various features and con
   - `line-height: 30px;`: Sets the line height for the heading.
   - `background: #ffffff url(images/globalpic.jpg) no-repeat -483px -399px;`: Sets a background image for the heading.
 
-### Member Login Form (`login-wrapper .form`)
+##### Member Login Form (`login-wrapper .form`)
 - `login-wrapper .form`:
   - `padding: 8px 0 0 17px;`: Specifies padding for the form.
 
-### Member Login Labels (`login-wrapper .form label`)
+###### Member Login Labels (`login-wrapper .form label`)
 - `login-wrapper .form label`:
   - `font-size: 10px;`: Sets the font size for the labels.
   - `color: #1d1d1d;`: Defines the text color.
 
-### Member Login Input Fields (`login-wrapper .form input`)
+- Member Login Input Fields (`login-wrapper .form input`)
 - `login-wrapper .form input`:
   - `padding: 3px;`: Adds padding to the input fields.
   - `width: 90%;`: Sets the width of the input fields.
 ...
 
-### Contact Section (`.contact`){#contact}
+#### Contact Section (`.contact`)
 - `.contact`:
   - `width: 210px;`: Sets the width of the contact section.
   - `height: 107px;`: Sets the height of the contact section.
   - `margin: 21px 0 0 19px;`: Specifies margin for positioning.
   - `background: url(images/globalpic.jpg) no-repeat -75px -111px;`: Sets a background image for the contact section.
 
-### Contact Paragraph (`contact p`)
+##### Contact Paragraph (`contact p`)
 - `contact p`:
   - `font-size: 26px;`: Sets the font size for the paragraph.
   - `color: #252525;`: Defines the text color.
@@ -488,17 +467,17 @@ The "Website Name" is a web page project that showcases various features and con
   - `line-height: 30px;`: Sets the line height for the paragraph.
   - `padding-left: 28px;`: Adds left padding.
 
-### Footer Section (`footer`){#footer}
+### Footer Section (`footer`)
 - `footer`:
   - `width: 100%;`: Sets the width of the footer section.
   - `padding-bottom: 23px;`: Adds padding to the bottom.
   - `background: url(images/footbg.jpg) repeat-x;`: Sets a repeating background image.
 
-### Footer Container (`.container`)
+#### Footer Container (`.container`)
 - `.container`:
   - `display: flex;`: Uses a flexbox layout for the container.
 
-### Footer Navigation (`footer .footer-nav`){#footer-nav}
+##### Footer Navigation (`footer .footer-nav`)
 - `footer .footer-nav`:
   - `width: 655px;`: Sets the width of the footer navigation.
   - `margin: 0 auto;`: Centers the navigation horizontally.
@@ -506,7 +485,7 @@ The "Website Name" is a web page project that showcases various features and con
   - `justify-content: space-between;`: Distributes items evenly along the horizontal axis.
   - `list-style: none;`: Removes list-style (bullets) from the list items.
 
-### Footer Navigation Links (`footer .footer-nav li a`)
+###### Footer Navigation Links (`footer .footer-nav li a`)
 - `footer .footer-nav li a`:
   - `font-size: 11px;`: Sets the font size for the links.
   - `color: #d5d5d5;`: Defines the text color.
@@ -514,14 +493,14 @@ The "Website Name" is a web page project that showcases various features and con
   - `border-right: 1px solid #d5d5d5;`: Adds a right border to separate links.
   - `padding-right: 8px;`: Adds padding to the right.
 
-### Copyright Notice (`.copyright`){#copyright}
+#### Copyright Notice (`.copyright`)
 - `.copyright`:
   - `text-align: center;`: Centers the text horizontally.
   - `color: #9fb31a;`: Defines the text color.
   - `font-size: 10px;`: Sets the font size for the copyright notice.
   - `margin-top: 6px;`: Adds top margin.
 
-### Footer Paragraph (`.para`){#para}
+#### Footer Paragraph (`.para`)
 - `.para`:
   - `color: #e9e6c3;`: Defines the text color.
   - `font-size: 12px;`: Sets the font size for the paragraph.
@@ -529,12 +508,12 @@ The "Website Name" is a web page project that showcases various features and con
   - `font-weight: bold;`: Sets the font weight to bold.
   - `margin-top: 9px;`: Adds top margin.
 
-### Footer Links (`footer .para a`)
+#### Footer Links (`footer .para a`)
 - `footer .para a`:
   - `color: white;`: Sets the text color.
   - `text-decoration: none;`: Removes text decoration.
 
-### Footer Buttons (`.footer-btns a`){#footer-btns}
+#### Footer Buttons (`.footer-btns a`)
 - `.footer-btns a`:
   - `color: white;`: Sets the text color.
   - `font-size: 11px;`: Sets the font size for the buttons.
